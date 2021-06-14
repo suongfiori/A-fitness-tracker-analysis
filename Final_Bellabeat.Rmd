@@ -805,7 +805,7 @@ ints_step <- step_sleephour %>%
   summarise(intensity = round(mean(total_intensity),0),
             steps = round(mean(step_total),2), .groups = "drop") %>% 
 ggplot(aes(x= intensity, y = steps, color = group, show.legend = FALSE))+ 
-         geom_point(size = 1)+ geom_smooth()+
+         geom_point(size = 1)+ geom_smooth(method = 'loess', formula = y ~ x)+
   stat_cor(aes(label = ..r.label..), label.x = 5)+
   labs(x="Intensity levels" , y="Steps")+
   ggtitle("Correlation of Instensity and Steps", "By Groups and Levels")+
@@ -822,7 +822,7 @@ ints_dist <- step_sleephour %>%
   summarise(intensity = round(mean(total_intensity),0),
             distance = round(mean(total_distance),2), .groups = "drop") %>% 
 ggplot(aes(x= intensity, y = distance, color = group, show.legend = FALSE))+ 
-         geom_point(size = 1)+ geom_smooth()+
+         geom_point(size = 1)+ geom_smooth(method = 'loess', formula = y ~ x)+
   stat_cor(aes(label = ..r.label..), label.x = 5)+
   labs(x="Intensity levels" , y="Distance levels")+
   ggtitle("Comparison of Instensity and Distance", "By Groups and Levels")+
@@ -848,7 +848,7 @@ steps_cals <- usage_df %>%
 ks <- function (steps) { number_format(accuracy = 1,  scale = 1/1000,suffix = "k",big.mark = ",")(steps) }  
                                  
 ggplot(steps_cals, aes(x= steps, y = cals, color = group))+ 
-         geom_point(size = 1)+ geom_smooth()+
+         geom_point(size = 1)+ geom_smooth(method = 'loess', formula = y ~ x)+
   stat_cor(aes(label = ..r.label..), label.x = 5)+
   labs(x="Number of steps" , y="Calories burned")+
   ggtitle("Correlation of Steps and Calories", "By Groups and Levels")+
