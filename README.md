@@ -1,7 +1,5 @@
 # Fitness Tracker - A Usage Trends Analysis With R
 
-(This is a case study for my Google Data Analytics Capstone "How can a wellness technology company play it smart?")
-
 ### Project Scenario
 * The goal of this analysis is to provide Bellabeat - a successful small high-tech manufacturer of health-focused products for women - an insight into how consumers are using a competitor's devices (i.e, Fitbit tracker).
 * Insights gained from the analysis would then be used to help inform Bellabeat's marketing strategy.
