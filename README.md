@@ -10,3 +10,13 @@
 * Focus on one of Bellabeat’s products while analyzing Fitbit's data to gain insight into how consumers are using their smart devices.
 * Providing a summary of the analysis to the Bellabeat executive team with visualizations and key findings.
 * Making recommendations for Bellabeat’s marketing strategy.
+
+![](https://github.com/databl0g/Suong_Portfolio/blob/main/images/Services%20Used%20By%20Day.png)
+
+![](https://github.com/databl0g/Suong_Portfolio/blob/main/images/features_venn1.png)
+
+![](https://github.com/databl0g/Suong_Portfolio/blob/main/images/Steps%20By%20Hours.png)
+
+![](https://github.com/databl0g/Suong_Portfolio/blob/main/images/comparison%20of%20intensity%20and%20steps.png)
+
+![](https://github.com/databl0g/Suong_Portfolio/blob/main/images/Correlation%20of%20frequent%20usage%20group.png)
