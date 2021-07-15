@@ -1,4 +1,4 @@
-# Fitness Tracker - A Usage Trends Analysis With R
+# Fitness Tracker - Usage Trends Analysis
 
 ### Project Scenario
 * The goal of this analysis is to provide Bellabeat - a successful small high-tech manufacturer of health-focused products for women - an insight into how consumers are using a competitor's devices (i.e, Fitbit tracker).
